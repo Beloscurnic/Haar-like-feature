@@ -1,0 +1,89 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>99723232-35f5-40aa-bc8f-c4887c8e301f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApplication2.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication2</Name>
+    <RootNamespace>PythonApplication2</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PythonApplication2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="test_images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test.csv" />
+    <Content Include="test_images\0AA0A2.jpg" />
+    <Content Include="test_images\14A19C.jpg" />
+    <Content Include="test_images\27DAC4.jpg" />
+    <Content Include="test_images\2FC4FD.jpg" />
+    <Content Include="test_images\30916C.jpg" />
+    <Content Include="test_images\32CEDF.jpg" />
+    <Content Include="test_images\33C8EE.jpg" />
+    <Content Include="test_images\35E54F.jpg" />
+    <Content Include="test_images\386FB0.jpg" />
+    <Content Include="test_images\41F890.jpg" />
+    <Content Include="test_images\455D92.jpg" />
+    <Content Include="test_images\4731E0.jpg" />
+    <Content Include="test_images\476435.jpg" />
+    <Content Include="test_images\4AE284.jpg" />
+    <Content Include="test_images\4CA327.jpg" />
+    <Content Include="test_images\4F7014.jpg" />
+    <Content Include="test_images\53DEBB.jpg" />
+    <Content Include="test_images\55D113.jpg" />
+    <Content Include="test_images\5633B8.jpg" />
+    <Content Include="test_images\56C0B5.jpg" />
+    <Content Include="test_images\60BE94.jpg" />
+    <Content Include="test_images\6E59C6.jpg" />
+    <Content Include="test_images\711A6A.jpg" />
+    <Content Include="test_images\76DD74.jpg" />
+    <Content Include="test_images\7E0875.jpg" />
+    <Content Include="test_images\80003A.jpg" />
+    <Content Include="test_images\826C93.jpg" />
+    <Content Include="test_images\870125.jpg" />
+    <Content Include="test_images\8D6BC6.jpg" />
+    <Content Include="test_images\8ECC1F.jpg" />
+    <Content Include="test_images\94E27D.jpg" />
+    <Content Include="test_images\9C02DD.jpg" />
+    <Content Include="test_images\A02514.jpg" />
+    <Content Include="test_images\A0F4EC.jpg" />
+    <Content Include="test_images\A35F94.jpg" />
+    <Content Include="test_images\A6E4A7.jpg" />
+    <Content Include="test_images\A8519D.jpg" />
+    <Content Include="test_images\B8D6C9.jpg" />
+    <Content Include="test_images\BCB11B.jpg" />
+    <Content Include="test_images\BDB744.jpg" />
+    <Content Include="test_images\C159CB.jpg" />
+    <Content Include="test_images\D11589.jpg" />
+    <Content Include="test_images\D35C72.jpg" />
+    <Content Include="test_images\D87D5F.jpg" />
+    <Content Include="test_images\E2BD04.jpg" />
+    <Content Include="test_images\E45D50.jpg" />
+    <Content Include="test_images\EF334A.jpg" />
+    <Content Include="test_images\F28B71.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
